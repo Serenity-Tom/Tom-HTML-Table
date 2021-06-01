@@ -1,0 +1,79 @@
+body {
+  margin: 2em;
+}
+
+td {
+  text-align: center;
+}
+
+tbody {
+  font-family: "helvetica neu", "helvetica", sans-serif;
+}
+
+tbody>tr:nth-child(odd) {
+  background: #ff33cc;
+  background-image: url("/assets/noise.png");
+}
+
+tbody>tr:nth-child(even) {
+  background: #e495e4;
+  background-image: url("/assets/noise.png");
+}
+
+table {
+  font-size: 1rem;
+  padding: 50px;
+  width: 100%;
+  border: solid #800080;
+  border-collapse: collapse;
+}
+
+th {
+  border: solid #800080;
+}
+
+thead, tfoot {
+  font-family: 'Rock Salt';
+  color: white;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/assets/leopardskin.jpg");
+  font-size: 12px;
+}
+
+.name, .famous {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bands {
+  font-weight: bolder;
+}
+
+.total {
+  text-align: right;
+  font-weight: bolder;
+  font-size: 0.4rem;
+}
+
+.sum {
+  text-align: left;
+  border-left: solid #800080;
+  font-weight: bolder;
+  font-size: 0.4rem;
+}
+
+.total, .sum {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.summary {
+  padding-top: 10px;
+  font-family: 'Rock Salt';
+  font-size: 0.3rem;
+  text-align: right;
+  font-weight: bold;
+}
+
+.uk {
+  font-size: 0.6rem;
+}
